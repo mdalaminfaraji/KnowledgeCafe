@@ -3,8 +3,7 @@ import './Cart.css';
 
 
 const SideCart = ({ ReadTime, cTitle }) => {
-  console.log(ReadTime);
-  console.log(cTitle);
+
   
   
   const [time, setTime]=useState(ReadTime);
@@ -16,9 +15,9 @@ const SideCart = ({ ReadTime, cTitle }) => {
   },[ReadTime])
   return (
     <div className="mt-4">
-      <h5 className="cart shadow rounded">Spend Time On Read :0{time} min</h5>
+      <h5 className="cart shadow rounded">Spend Time On Read :0  {time} min</h5>
       <h5 className="cart shadow rounded">Bookmarked Blogs:{cTitle.length}</h5>
-      <div className="titleblog">
+      <div>
         {cTitle.map((title) => (
           <p className="bookmark shadow rounded">{title}</p>
         ))}

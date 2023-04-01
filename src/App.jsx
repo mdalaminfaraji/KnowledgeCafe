@@ -16,10 +16,7 @@ const handleBookmark=(title)=>{
    const totalTitle = [...cTitle, title];
    setTitle(totalTitle);
   //  console.log(totalTitle);
- 
- 
 
- 
 }
 // readtime section
   const handleReadTime=(readTime)=>{
