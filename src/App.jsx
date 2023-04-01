@@ -7,8 +7,20 @@ import SideCart from './commonents/sideCart/SideCart';
 
 function App() {
   const [ReadTime, setReadTime]=useState(0);
+  const [cTitle, setTitle]=useState([]);
+  console.log(cTitle);
   
+// bookmark section
+const handleBookmark=(title)=>{
+   const totalTitle = [...cTitle, title];
+   setTitle(totalTitle);
+  //  console.log(totalTitle);
+ 
+ 
 
+ 
+}
+// readtime section
   const handleReadTime=(readTime)=>{
  const time=parseInt(readTime);
 
@@ -37,10 +49,10 @@ function App() {
     </div>
     <div className="main row mt-4">
       <div className="home-container col-md-8 text-center">
-          <Home handleReadTime={handleReadTime}></Home>
+          <Home handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Home>
       </div>
       <div className="side-cart col-md-4 text-center">
-          <SideCart ReadTime={ReadTime}></SideCart>
+          <SideCart ReadTime={ReadTime} cTitle={cTitle}></SideCart>
       </div>
     </div>
     
