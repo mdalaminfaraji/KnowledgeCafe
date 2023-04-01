@@ -1,0 +1,47 @@
+[
+  {
+    "id": "641dddcf913fe544dfec7a35",
+
+    "author_name": "Susana Aguirre",
+    "author_image": "https://images.pexels.com/photos/3772623/pexels-photo-3772623.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "blog_image": "https://www.programming-hero.com/blog/assets/images/blog/few-things-to-avoid-in-python.png",
+    "blog_title": "Few Things To Avoid In Python",
+    "publish_Date": "25 Aug 2020"
+  },
+  {
+    "id": "641dddcfbce08d2377b01a43",
+
+    "author_name": "Elma Wiley",
+    "author_image": "https://images.pexels.com/photos/7063759/pexels-photo-7063759.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "blog_image": "https://www.programming-hero.com/blog/assets/images/blog/python-developer-roadmap-follow-this-roadmap-and-become-a-python-hero.png",
+    "blog_title": "python developer Roadmap",
+    "publish_Date": "23 sep 2020"
+  },
+  {
+    "id": "641dddcf9d114d7e287aebf4",
+
+    "author_name": "Andrews Mercer",
+    "author_image": "https://c.tadst.com/gfx/750x500/authors-day-fun.jpg",
+    "blog_image": "https://www.programming-hero.com/blog/assets/images/blog/5-future-proof-technologies-to-learn-in-2020.png",
+    "blog_title": "5 Future Proof Technologies to  Learn in 2020",
+    "publish_Date": "29 sep 2020"
+  },
+  {
+    "id": "641dddcf7fc1129723a1229a",
+
+    "author_name": "Morris Brock",
+    "author_image": "https://images.pexels.com/photos/10174667/pexels-photo-10174667.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "blog_image": "https://www.programming-hero.com/blog/assets/images/blog/this-is-what-makes-you-a-good-programmer.png",
+    "blog_title": "This is What makes you a good programmer",
+    "publish_Date": "03 Oct 2020"
+  },
+  {
+    "id": "641dddcf88093cd5bda4e1c5",
+
+    "author_name": "Etta Navarro",
+    "author_image": "https://images.pexels.com/photos/9297454/pexels-photo-9297454.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "blog_image": "https://www.programming-hero.com/blog/assets/images/blog/top-web-development-stacks-that-you-should-know-to-land-with-a-6-figure-salary.png",
+    "blog_title": "Top web development Stacks",
+    "publish_Date": "09 Oct 2020"
+  }
+]
