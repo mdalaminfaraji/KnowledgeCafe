@@ -40,7 +40,7 @@ const Blog = ({ blog, handleReadTime, handleBookmark }) => {
         <p> # beginner #programming</p>
 
         <button
-          className="btn text-danger"
+          className="btn btn-danger"
           onClick={() => handleReadTime(readTime)}
         >
           Mark as read

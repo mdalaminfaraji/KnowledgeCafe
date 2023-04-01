@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './commonents/Header/Header'
+import Header from './commonents/Header/Header';
+import BlogComponent from './commonents/BlogComponent/BlogComponent';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './commonents/Home/Home';
 import SideCart from './commonents/sideCart/SideCart';
@@ -54,6 +55,9 @@ const handleBookmark=(title)=>{
       <div className="side-cart col-md-4 text-center">
           <SideCart ReadTime={ReadTime} cTitle={cTitle}></SideCart>
       </div>
+    </div>
+    <div className='text-center'>
+      <BlogComponent></BlogComponent>
     </div>
     
     </div>
