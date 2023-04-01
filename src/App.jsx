@@ -45,7 +45,7 @@ const handleBookmark=(title)=>{
     <div>
        <Header></Header>
     </div>
-    <div className="main row mt-4">
+    <div className="main row mt-4 mx-4">
       <div className="home-container col-md-8 text-center">
           <Home handleReadTime={handleReadTime} handleBookmark={handleBookmark}></Home>
       </div>

@@ -15,7 +15,7 @@ const SideCart = ({ ReadTime, cTitle }) => {
   },[ReadTime])
   return (
     <div className="mt-4">
-      <h5 className="cart shadow rounded">Spend Time On Read :0  {time} min</h5>
+      <h5 className="cart shadow rounded">Spend Time On Read : {time} min</h5>
       <h5 className="cart shadow rounded">Bookmarked Blogs:{cTitle.length}</h5>
       <div>
         {cTitle.map((title) => (
