@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Blog from '../Blog/Blog';
 import './Home.css';
-const Home = () => {
+const Home = ({handleReadTime}) => {
   const [blogs, setBlog]=useState([]);
     useEffect(()=>{
         fetch("Fakedata.json")
@@ -13,7 +13,7 @@ const Home = () => {
       <div className="container pb-4">
       <div>
         {
-            blogs.map((blog)=>(<Blog blog={blog} key={blog.id}></Blog>
+            blogs.map((blog)=>(<Blog handleReadTime={handleReadTime} blog={blog}></Blog>
             ))
               
             
